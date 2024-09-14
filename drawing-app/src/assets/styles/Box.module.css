@@ -1,0 +1,44 @@
+.container {
+  cursor: grab;
+  width: 260px;
+  padding: 5px;
+  position: absolute;
+  background: white;
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.87);
+  -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.87);
+  -moz-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+}
+
+.undo-redo-btn {
+  position: relative;
+  background-color: white;
+  border: 0;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.undo-redo-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.horizontal-lines {
+  width: 225px;
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.horizontal-lines hr {
+  background-color: rgb(29, 26, 26);
+  margin: 10px 0;
+}
+
+.horizontal-lines hr:hover {
+  background-color: black;
+}
